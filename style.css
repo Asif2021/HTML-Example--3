@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* outer div styling start  */
 .outer_div{
  background-color: lightskyblue;
  height: 100vh;
@@ -11,12 +13,61 @@
  justify-content: center;
  align-items: center;
     }
+
+    /* outer div styling end  */
+
+    /* inner div styling start  */
 .inner_div{
 background-color: white;
 height: 80vh;
 width: 80vw;
 border: 1px solid none;
-  outline: 1px solid blue;
+  outline: 1px solid darkblue;
   outline-offset: 15px;
   border-radius: 25px;
      }
+     /* top nav styling start  */
+.top_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+
+} 
+.topnav_firstDiv{
+    display: flex;
+    align-items: center;
+}
+.topnav_secondDiv{
+    background-color: aqua;
+}
+.topnav_thirdDiv a {
+    text-decoration: none;
+    color: black;
+}
+.topnav_thirdDiv i{
+padding-right: 30px;
+}
+
+/* top nav styling end  */
+
+/* bottom nav styling start  */
+.bottom_nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 183, 233);
+    padding: 20px;
+}
+.bottom_nav ul li{
+    list-style: none;
+    }
+.bottom_nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.bottom_nav a:hover{
+    background-color: white;
+    color: rgb(56, 183, 233);
+    border-radius: 10px;
+}

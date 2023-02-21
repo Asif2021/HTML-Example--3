@@ -97,7 +97,7 @@ padding-right: 30px;
    }
    .main_secondPart{
     display: flex;
-    padding: 35px;
+    padding: 22px;
     background-color:rgb(56, 183, 233);
     width: 80vw;
     height: 25.5vh;
@@ -105,10 +105,13 @@ padding-right: 30px;
      }
      .main_secondPart img{
         padding: 10px;
+        border-radius: 15px;
      }
-     .secondPart_image{
-        background-color: white;
+     .secondPart_image {
+        opacity: 0.5;
+         background-color: white;
         border-radius: 15px;
         margin: 15px;
+        text-align: center;
      }
    

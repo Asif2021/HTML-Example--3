@@ -71,3 +71,23 @@ padding-right: 30px;
     color: rgb(56, 183, 233);
     border-radius: 10px;
 }
+/* bottom nav stling end  */
+
+/* main styling start  */
+.main_firstPart{
+    display: flex;
+    justify-content: space-around;
+    }
+/* main left div styling  */
+.main_left{
+    background-color: whitesmoke;
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+   }
+/* main right div styling  */
+.main_right{
+    background-color: whitesmoke;
+    width: 40vw;
+    height: 40vh;
+   }

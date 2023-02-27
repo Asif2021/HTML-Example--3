@@ -121,20 +121,20 @@ body{
 /* bottom nav stling end  */
 
 /* main styling start  */
-.main_firstPart {
+/* .main_firstPart {
     background-image: url(images/3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     padding: 70px;
-   }
+   } */
 
 /* main left div styling  */
-.main_left {
+/* .main_left {
     text-align: center;
     color: white;
     position: relative;
-}
-.main_left button {
+} */
+/* .main_left button {
     color: white;
     background-color: var(--blue);
     border: none;
@@ -142,7 +142,7 @@ body{
     padding: 10px;
     margin: 10px;
     font-weight: bold;
-}
+} */
 
 /* main right div styling  */
 

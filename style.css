@@ -90,16 +90,25 @@ body{
 /* top nav styling end  */
 
 /* bottom nav styling start  */
+.bottom_nav{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    }
 .bottom_nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
     padding: 20px 70px 20px 70px;
-    
+    margin-bottom: 0px;
 }
-
+.bottom_nav button {
+    margin: 0px 25px 0px 25px;
+    border: none;
+    background-color: var(--blue);
+}
 .bottom_nav ul li {
     list-style: none;
     padding: 5px;
@@ -188,3 +197,13 @@ body{
 /* main scond part styling end  */
 
 
+@media only screen and (max-width: 768px) {
+    .nav_ul {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .bottom_nav button {
+      display: none;
+    }
+  }

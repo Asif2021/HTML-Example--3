@@ -34,6 +34,7 @@ body {
     border-radius: 25px;
     outline: 2px solid var(--blue);
     outline-offset: 25px;
+    margin: 48px;
 }
 
 /* top nav styling start  */
@@ -76,6 +77,10 @@ body {
     border-color: var(--blue);
     border-radius: 0px 22px 22px 0px;
 }
+.topnav_secondDiv button i{
+    color: white;
+    font-size: 20px;
+}
 
 .topnav_thirdDiv a {
     text-decoration: none;
@@ -91,13 +96,13 @@ body {
 /* top nav styling end  */
 
 /* bottom nav styling start  */
-.bottom_nav {
+.bottom_nav_ul {
     display: flex;
     flex-direction: column;
     background-color: var(--blue);
 }
 
-.bottom_nav ul {
+.bottom_nav_ul ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,25 +112,27 @@ body {
     margin-bottom: 0px;
 }
 
-.bottom_nav button {
-    margin: 0px 25px 0px 25px;
-    border: none;
+.bottomNav_button button {
+   border: none;
     background-color: var(--blue);
+    padding: 15px 32px;
+    font-size: 25px;
+    color: white;
 }
 
-.bottom_nav ul li {
+.bottom_nav_ul ul li {
     list-style: none;
     padding: 5px;
 
 }
 
-.bottom_nav ul li a {
+.bottom_nav_ul ul li a {
     text-decoration: none;
     color: white;
     padding: 10px;
 }
 
-.bottom_nav a:hover {
+.bottom_nav_ul a:hover {
     background-color: white;
     color: rgb(56, 183, 233);
     border-radius: 10px;
@@ -207,18 +214,22 @@ body {
 
 
 @media only screen and (max-width: 768px) {
-    .bottom_nav {
+    .bottom_nav_ul{
+        display: none;
+    }
+
+    /* .bottom_nav_ul {
        position: absolute;
        z-index: 1;
        width: 200px; 
-       height: 87%;
+       height: 62%;
     }
-    .bottom_nav ul li a {
+    .bottom_nav_ul ul li a {
         padding: 10px 0px 10px 0px;
-    }
+    } */
 }
-/* @media only screen and (min-width: 768px) {
-    .bottom_nav button {
+ @media only screen and (min-width: 768px) {
+    .bottomNav_button {
         display: none;
     }
 }  

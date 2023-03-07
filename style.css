@@ -212,24 +212,37 @@ body {
 } */
 /* main scond part styling end  */
 
-
+/* for small screen media querry */
 @media only screen and (max-width: 768px) {
     .bottom_nav_ul{
         display: none;
-    }
+          }
+          .responsive {
+            display: flex;
+            position: absolute;
+                z-index: 1;
+                width: 200px; 
+                height: 62%;
+        }
+        .crossSign a{
+            margin: 85px;   
+            font-size: 30px;
+            font-weight: bold;
+           }
 
-    /* .bottom_nav_ul {
-       position: absolute;
-       z-index: 1;
-       width: 200px; 
-       height: 62%;
-    }
     .bottom_nav_ul ul li a {
         padding: 10px 0px 10px 0px;
-    } */
+    }
 }
+
+/* for large screen media querry */
  @media only screen and (min-width: 768px) {
     .bottomNav_button {
         display: none;
     }
+    .crossSign{
+        display: none;
+    }
 }  
+
+
